@@ -35,5 +35,6 @@ Although this is not an official commercial dataset, it is well-organized and in
 * **os** – Operating system
 * **display_size** – Screen size
 * **refresh_rate** – Display refresh rate
+* ......
 
 ---
