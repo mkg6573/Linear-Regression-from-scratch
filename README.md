@@ -240,28 +240,18 @@ Reshaped arrays where necessary
 
 2️⃣ Feature Engineering
 
-Created polynomial feature of degree 2 manually:
-
-𝑥
-2
-x
-2
-
-Constructed the Design Matrix (X):
-
-Bias term (1)
-
-Linear term (x)
-
-Polynomial term (x²)
+*Created polynomial feature of degree 2 manually:
+                    𝑥2
+*Constructed the Design Matrix (X):
+   *Bias term (1)
+   *Linear term (x)
+   *Polynomial term (x²)
 
 3️⃣ Model Initialization
 
-Parameters (θ₀, θ₁, θ₂) initialized to zero
-
-Learning rate defined
-
-Number of epochs defined
+*Parameters (θ₀, θ₁, θ₂) initialized to zero
+*Learning rate defined
+*Number of epochs defined
 
 4️⃣ Gradient Descent Implementation
 
@@ -391,9 +381,9 @@ phone_price_model.pkl
 app.py
 
 🔹 Prediction Logic
-Model trained on log1p(price)
-Predictions converted back using:
-predicted_price = np.expm1(log_price)
+*Model trained on log1p(price)
+*Predictions converted back using:
+*predicted_price = np.expm1(log_price)
 
 🔹 User Inputs in Web App
 Brand
@@ -416,7 +406,9 @@ etc.
 -Scikit-learn
 -Joblib
 -Streamlit
+
 🎓 Learning Outcomes
+-
 Through this project, we gained hands-on experience in:
 End-to-end regression modeling
 Feature engineering
@@ -427,6 +419,7 @@ Deployment using Streamlit
 Converting ML models into real-world applications
 
 🏁 Conclusion
+-
 This project demonstrates a complete machine learning pipeline:
 EDA → Model Building → Model Evaluation → Model Comparison → Model Selection → Deployment
 Among all tested models, Multiple Linear Regression provided the best balance between accuracy and generalization, achieving an R² score of 0.84 and the lowest RMSE.
