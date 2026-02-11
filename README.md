@@ -147,30 +147,26 @@ To implement Multiple Linear Regression from scratch using Gradient Descent to m
 
 📊 Dataset Description
 
-*Dataset Name: after_EDA_dataset.csv
-*Independent Variables:
-*processor_speed
-*RAM
-*storage
-(other selected features)
+* Dataset Name: after_EDA_dataset.csv
+* Independent Variables:
+* processor_speed
+* RAM
+* storage
+* (other selected features)
 
 Dependent Variable: price
 🧠 Methodology
 1️⃣ Data Preparation
 
-Selected multiple relevant features
-
-Constructed feature matrix (X)
-
-Added bias column (ones column)
+* Selected multiple relevant features
+* Constructed feature matrix (X)
+* Added bias column (ones column)
 
 2️⃣ Model Initialization
 
-Parameter vector θ initialized to zeros
-
-Learning rate defined
-
-Epochs defined
+* Parameter vector θ initialized to zeros
+* Learning rate defined
+* Epochs defined
 
 3️⃣ Vectorized Gradient Descent
 
