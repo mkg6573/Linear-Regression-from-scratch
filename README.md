@@ -55,7 +55,7 @@ Although this is not an official commercial dataset, it is well-organized and in
 ### 🔹 1. Simple Linear Regression
 📌 Objective
 
-The objective of this experiment is to implement Simple Linear Regression from scratch using Gradient Descent to model the linear relationship between a single independent variable and the target variable.
+* The objective of this experiment is to implement Simple Linear Regression from scratch using Gradient Descent to model the linear relationship between a single independent variable and the target variable.
 
 📊 Dataset Description
 
@@ -68,8 +68,9 @@ Dependent Variable (Target): price
 The dataset was cleaned and preprocessed after Exploratory Data Analysis (EDA).
 
 🧠 Methodology
+--
 1️⃣ Data Preparation
-
+-
 Loaded dataset using Pandas
 
 Extracted feature (X) and target (y)
@@ -77,7 +78,7 @@ Extracted feature (X) and target (y)
 Reshaped arrays appropriately
 
 2️⃣ Model Initialization
-
+-
 Parameters initialized:
 
 θ₀ (Intercept)
@@ -89,7 +90,7 @@ Learning rate defined
 Number of epochs specified
 
 3️⃣ Gradient Descent Implementation
-
+-
 Predictions calculated using:
           y=θ0​+θ1​x
 
@@ -100,7 +101,7 @@ Gradients derived manually
 Parameters updated iteratively
 
 4️⃣ Training Monitoring
-
+-
 Cost recorded per epoch
 
 Verified convergence via decreasing loss
@@ -146,16 +147,11 @@ To implement Multiple Linear Regression from scratch using Gradient Descent to m
 
 📊 Dataset Description
 
-Dataset Name: after_EDA_dataset.csv
-
-Independent Variables:
-
-processor_speed
-
-RAM
-
-storage
-
+*Dataset Name: after_EDA_dataset.csv
+*Independent Variables:
+*processor_speed
+*RAM
+*storage
 (other selected features)
 
 Dependent Variable: price
