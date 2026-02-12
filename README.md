@@ -78,6 +78,7 @@ Fill value : https://github.com/mkg6573/Linear-Regression-from-scratch/blob/main
 EDA : https://github.com/mkg6573/Linear-Regression-from-scratch/blob/main/EDA.ipynb
 
 corelation : https://github.com/mkg6573/Linear-Regression-from-scratch/blob/main/Correlation.ipynb
+
 Loaded dataset using Pandas
 
 Extracted feature (X) and target (y)
