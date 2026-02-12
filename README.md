@@ -71,7 +71,7 @@ The dataset was cleaned and preprocessed after Exploratory Data Analysis (EDA).
 
 🧠 Methodology
 --
-1️⃣ Data Preparation
+1️⃣ Data Preprocessing
 -
 Fill value : https://github.com/mkg6573/Linear-Regression-from-scratch/blob/main/fill-NAN-value.ipynb
 
