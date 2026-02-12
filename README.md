@@ -55,6 +55,8 @@ Although this is not an official commercial dataset, it is well-organized and in
 ### 🔹 1. Simple Linear Regression
 📌 Objective
 
+Notebook : https://github.com/mkg6573/Linear-Regression-from-scratch/blob/main/Simple_Linear_Regression.ipynb
+
 * The objective of this experiment is to implement Simple Linear Regression from scratch using Gradient Descent to model the linear relationship between a single independent variable and the target variable.
 
 📊 Dataset Description
@@ -142,7 +144,7 @@ Simple Linear Regression was successfully implemented from scratch using Gradien
 
 ### 🔹 2. Multiple Linear Regression
 📌 Objective
-
+Notebook : https://github.com/mkg6573/Linear-Regression-from-scratch/blob/main/Multiple_Linear_Regression.ipynb
 To implement Multiple Linear Regression from scratch using Gradient Descent to model the relationship between multiple features and price.
 
 📊 Dataset Description
@@ -212,6 +214,8 @@ Multiple Linear Regression was successfully implemented using fully vectorized G
 
 ### 🔹 3. Polynomial Regression
 📌 Objective
+
+Notebook : https://github.com/mkg6573/Linear-Regression-from-scratch/blob/main/Polynomial_Regression.ipynb
 
 The objective of this experiment is to implement Polynomial Regression from scratch using Gradient Descent to model the non-linear relationship between processor speed and price without using any pre-built machine learning libraries.
 
@@ -302,7 +306,7 @@ Polynomial Regression was successfully implemented from scratch using Gradient D
 
 ### 🔹 4. Regularization (Ridge & Lasso)
 📌 Objective
-
+Notebook : https://github.com/mkg6573/Linear-Regression-from-scratch/blob/main/Regularization.ipynb
 -To reduce overfitting and improve model stability.
 -Ridge Regression (L2) shrinks large coefficients.
 -Lasso Regression (L1) performs feature selection.
@@ -312,12 +316,12 @@ Polynomial Regression was successfully implemented from scratch using Gradient D
 🔹 Ridge Regression (L2 Regularization)
 
 Modified cost function:
-       J(θ)=2m1​∑(y−Xθ)2+2mλ​∑θ2
+       J(θ)=1/2m​∑(hθ​(x)−y)^2+λ/2m​∑θ^2
 Penalizes large coefficients.
 Shrinks weights but does not eliminate them.
 
 🔹 Lasso Regression (L1 Regularization)
-      J(θ)=2m1​∑(y−Xθ)2+2mλ​∑∣θ∣
+      J(θ)=1/2m​∑(hθ​(x)−y)^2+λ/m​∑∣θ∣
 -Can reduce some coefficients to zero.
 -Performs feature selection. 
 
