@@ -73,6 +73,9 @@ The dataset was cleaned and preprocessed after Exploratory Data Analysis (EDA).
 --
 1️⃣ Data Preparation
 -
+Fill value : https://github.com/mkg6573/Linear-Regression-from-scratch/blob/main/fill-NAN-value.ipynb
+
+EDA : https://github.com/mkg6573/Linear-Regression-from-scratch/blob/main/EDA.ipynb
 Loaded dataset using Pandas
 
 Extracted feature (X) and target (y)
